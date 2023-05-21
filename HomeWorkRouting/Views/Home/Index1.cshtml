@@ -1,17 +1,1 @@
-﻿@{
-    ViewData["Title"] = "Save Data";
-}
 
-<h1>Save Data</h1>
-
-<form method="post" action="/Home/SaveData">
-    <div class="form-group">
-        <label for="value">Value:</label>
-        <input type="text" class="form-control" id="value" name="value" required>
-    </div>
-    <div class="form-group">
-        <label for="expirationDate">Expiration Date:</label>
-        <input type="datetime-local" class="form-control" id="expirationDate" name="expirationDate" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Save</button>
-</form>
