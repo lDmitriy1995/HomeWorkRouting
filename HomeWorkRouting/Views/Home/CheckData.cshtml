@@ -1,0 +1,16 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Check Data";
+}
+
+<h1>Check Data</h1>
+
+@if (!string.IsNullOrEmpty(Model))
+{
+    <p>Value in Cookies: <strong>@Model</strong></p>
+}
+else
+{
+    <p>No value found in Cookies.</p>
+}
